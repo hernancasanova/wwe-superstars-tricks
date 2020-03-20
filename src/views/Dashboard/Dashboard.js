@@ -483,6 +483,24 @@ class Dashboard extends Component {
 
     return (
       <div className="animated fadeIn">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Empresa</th>
+              <th>Ver detalles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Sheamus</td>
+              <td>Smackdown</td>
+              <td><a href="https://espanol.wwe.com/superstars/sheamus">Ver</a></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     );
   }
